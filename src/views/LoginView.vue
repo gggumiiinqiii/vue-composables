@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
-import { ElMessage } from "element-plus";
 import { useUser } from "@/composables/useUser";
 const { loginModel, user, login, loggedIn, loginOut } = useUser();
 </script>
